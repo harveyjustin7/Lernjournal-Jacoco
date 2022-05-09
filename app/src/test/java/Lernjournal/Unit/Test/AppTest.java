@@ -10,7 +10,7 @@ class AppTest {
     @Test 
         public void BussenConverter_keineBusse (){
         Bussenconverter busse = new Bussenconverter();
-        Assertions.assertEquals("Keine Busse", busse.convert(0));
+        Assertions.assertEquals("Keine Busse", busse.convert(-10));
     }
     @Test
         public void Bussenconverter_Bussevon20(){
